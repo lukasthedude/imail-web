@@ -38,22 +38,22 @@ img { display: block; max-width: 100%; height: auto; }
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: clamp(40px, 7vw, 120px) 24px clamp(56px, 8vw, 130px);
+  padding: clamp(36px, 6vw, 100px) 24px clamp(48px, 7vw, 110px);
 }
 
 /* App icon (marble envelope) — keeps its own soft shadow + transparency */
 .app-icon {
   width: clamp(90px, 8.6vw, 156px);
-  margin-bottom: clamp(24px, 4.5vw, 72px);
+  margin-bottom: clamp(18px, 3vw, 44px);
 }
 
 /* The big black wordmark — Inter Black (900), matches the design */
 .wordmark {
-  margin: 0 0 clamp(44px, 12vw, 170px);
-  font-weight: 800;
+  margin: 0 0 clamp(28px, 6vw, 84px);
+  font-weight: 700;
   font-size: clamp(64px, 17.5vw, 340px);
   line-height: 1;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.05em;
   color: var(--black);
   text-align: center;
 }
@@ -62,7 +62,7 @@ img { display: block; max-width: 100%; height: auto; }
    shadow follows the shape via drop-shadow (not box-shadow). */
 .shot {
   width: min(92vw, 1200px);
-  margin-bottom: clamp(44px, 11vw, 150px);
+  margin-bottom: clamp(36px, 7vw, 100px);
   filter:
     drop-shadow(0 24px 50px rgba(0, 0, 0, 0.13))
     drop-shadow(0 5px 14px rgba(0, 0, 0, 0.06));
@@ -72,7 +72,7 @@ img { display: block; max-width: 100%; height: auto; }
 .copy { width: min(90vw, 660px); }
 
 .copy p {
-  margin: 0 0 clamp(22px, 3.6vw, 52px);
+  margin: 0 0 clamp(20px, 3vw, 40px);
   font-size: clamp(17px, 1.55vw, 28px);
   line-height: 1.45;
   color: var(--ink);
@@ -84,10 +84,10 @@ img { display: block; max-width: 100%; height: auto; }
   background: var(--black);
   color: #fff;
   text-decoration: none;
-  font-size: clamp(16px, 1.15vw, 19px);
+  font-size: clamp(15px, 1.05vw, 18px);
   font-weight: 500;
   border-radius: 980px;
-  padding: clamp(15px, 1.3vw, 19px) clamp(28px, 2.2vw, 40px);
+  padding: clamp(13px, 1.15vw, 17px) clamp(25px, 1.95vw, 34px);
   transition: opacity 0.2s ease, transform 0.2s ease;
 }
 .waitlist:hover  { opacity: 0.85; }
