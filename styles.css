@@ -43,14 +43,14 @@ img { display: block; max-width: 100%; height: auto; }
 
 /* App icon (marble envelope) — keeps its own soft shadow + transparency */
 .app-icon {
-  width: clamp(76px, 7.3vw, 132px);
+  width: clamp(90px, 8.6vw, 156px);
   margin-bottom: clamp(24px, 4.5vw, 72px);
 }
 
 /* The big black wordmark — Inter Black (900), matches the design */
 .wordmark {
   margin: 0 0 clamp(44px, 12vw, 170px);
-  font-weight: 900;
+  font-weight: 800;
   font-size: clamp(64px, 17.5vw, 340px);
   line-height: 1;
   letter-spacing: -0.04em;
@@ -69,7 +69,7 @@ img { display: block; max-width: 100%; height: auto; }
 }
 
 /* Copy block — centered, text left-aligned; the button left-aligns to it */
-.copy { width: min(90vw, 880px); }
+.copy { width: min(90vw, 660px); }
 
 .copy p {
   margin: 0 0 clamp(22px, 3.6vw, 52px);
@@ -84,10 +84,10 @@ img { display: block; max-width: 100%; height: auto; }
   background: var(--black);
   color: #fff;
   text-decoration: none;
-  font-size: clamp(15px, 0.95vw, 17px);
+  font-size: clamp(16px, 1.15vw, 19px);
   font-weight: 500;
   border-radius: 980px;
-  padding: clamp(12px, 1vw, 15px) clamp(22px, 1.7vw, 30px);
+  padding: clamp(15px, 1.3vw, 19px) clamp(28px, 2.2vw, 40px);
   transition: opacity 0.2s ease, transform 0.2s ease;
 }
 .waitlist:hover  { opacity: 0.85; }
