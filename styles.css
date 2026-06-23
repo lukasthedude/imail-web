@@ -99,7 +99,7 @@ img { display: block; max-width: 100%; height: auto; }
 /* More breathing room between elements on phones */
 @media (max-width: 600px) {
   .page     { padding-top: 52px; padding-bottom: 88px; }
-  .app-icon { margin-bottom: 32px; }
+  .app-icon { margin-bottom: 24px; }
   .wordmark { margin-bottom: 52px; }
   .shot     { margin-bottom: 56px; }
   /* Center the copy + waitlist button on phones
