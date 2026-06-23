@@ -102,5 +102,8 @@ img { display: block; max-width: 100%; height: auto; }
   .app-icon { margin-bottom: 32px; }
   .wordmark { margin-bottom: 52px; }
   .shot     { margin-bottom: 56px; }
+  /* Center the copy + waitlist button on phones
+     (text-align also centers the inline-block button) */
+  .copy     { text-align: center; }
   .copy p   { margin-bottom: 30px; }
 }
