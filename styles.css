@@ -102,8 +102,7 @@ img { display: block; max-width: 100%; height: auto; }
   .app-icon { margin-bottom: 24px; }
   .wordmark { margin-bottom: 52px; }
   .shot     { margin-bottom: 56px; }
-  /* Center the copy + waitlist button on phones
-     (text-align also centers the inline-block button) */
-  .copy     { text-align: center; }
   .copy p   { margin-bottom: 30px; }
+  /* Copy stays left-aligned (cleaner); center only the waitlist button */
+  .waitlist { display: block; width: fit-content; margin-inline: auto; }
 }
