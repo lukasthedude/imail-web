@@ -49,7 +49,7 @@ img { display: block; max-width: 100%; height: auto; }
 
 /* The big black wordmark — Inter Black (900), matches the design */
 .wordmark {
-  margin: 0 0 clamp(28px, 6vw, 84px);
+  margin: 0 0 clamp(28px, 6.4vw, 92px);
   font-weight: 700;
   font-size: clamp(64px, 17.5vw, 340px);
   line-height: 1;
@@ -100,7 +100,7 @@ img { display: block; max-width: 100%; height: auto; }
 @media (max-width: 600px) {
   .page     { padding-top: 52px; padding-bottom: 88px; }
   .app-icon { margin-bottom: 24px; }
-  .wordmark { font-size: 22vw; margin-bottom: 60px; }
+  .wordmark { font-size: 22vw; margin-bottom: 68px; }
   /* Narrower, aligned content column → more left/right breathing room */
   .shot     { width: 84vw; margin-bottom: 56px; }
   .copy     { width: 84vw; }
