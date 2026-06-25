@@ -75,7 +75,7 @@ img { display: block; max-width: 100%; height: auto; }
 .copy { width: min(90vw, 660px); }
 
 .copy p {
-  margin: 0 0 clamp(20px, 3vw, 40px);
+  margin: 0 0 clamp(28px, 3.6vw, 52px);
   font-size: clamp(18px, 1.5vw, 27px);
   line-height: 1.45;
   color: var(--ink);
