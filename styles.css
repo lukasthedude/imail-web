@@ -100,9 +100,11 @@ img { display: block; max-width: 100%; height: auto; }
 @media (max-width: 600px) {
   .page     { padding-top: 52px; padding-bottom: 88px; }
   .app-icon { margin-bottom: 24px; }
-  .wordmark { margin-bottom: 52px; }
-  .shot     { margin-bottom: 56px; }
+  .wordmark { margin-bottom: 60px; }
+  /* Narrower, aligned content column → more left/right breathing room */
+  .shot     { width: 84vw; margin-bottom: 56px; }
+  .copy     { width: 84vw; }
   .copy p   { margin-bottom: 30px; }
-  /* Copy stays left-aligned (cleaner); center only the waitlist button */
+  /* Copy stays left-aligned; center only the waitlist button */
   .waitlist { display: block; width: fit-content; margin-inline: auto; }
 }
