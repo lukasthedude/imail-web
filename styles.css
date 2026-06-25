@@ -100,7 +100,7 @@ img { display: block; max-width: 100%; height: auto; }
 @media (max-width: 600px) {
   .page     { padding-top: 52px; padding-bottom: 88px; }
   .app-icon { margin-bottom: 24px; }
-  .wordmark { margin-bottom: 60px; }
+  .wordmark { font-size: 22vw; margin-bottom: 60px; }
   /* Narrower, aligned content column → more left/right breathing room */
   .shot     { width: 84vw; margin-bottom: 56px; }
   .copy     { width: 84vw; }
